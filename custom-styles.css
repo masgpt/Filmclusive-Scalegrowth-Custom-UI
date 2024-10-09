@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmclusive - Efficient and Organized Writer Submissions</title>
+    
+    <!-- Open Graph Meta Tags for Homepage -->
+    <meta property="og:url" content="https://app.filmclusive.com/p/filmclusive/home/?sgj=m" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Filmclusive - Efficient and Organized Writer Submissions" />
+    <meta property="og:description" content="Streamline and organize writer submissions, making it easy for studios and agencies to manage, track, and discover top talent efficiently." />
+    <meta property="og:image" content="https://info.filmclusive.com/wp-content/uploads/2024/04/Filmclusive-Logo_Facebook.png" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCM1R8VHQZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KCM1R8VHQZ');
+    </script>
+
+    <!-- Custom CSS -->
+    <style>
+      .sg-dir-prof-card img.image-view.sg-profile-image {
+          width: 250px;
+          height: 250px;
+          border-radius: 15px;
+      }
+      .sg-space-filter-current {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #000;
+          color: #fff;
+          border: none;
+          border-radius: 50px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 13px;
+          font-family: -apple-system, system-ui, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+          transition: background-color 0.3s ease;
+      }
+    </style>
+</head>
+<body>
+    <!-- Page content -->
+</body>
+</html>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "noj7kojgpi");
+</script>
