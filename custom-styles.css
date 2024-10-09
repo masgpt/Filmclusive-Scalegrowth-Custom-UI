@@ -41,3 +41,58 @@ body.dark-mode .email-button {
     background-color: yellow; /* Yellow background */
     color: black; /* Black text */
 }
+
+/* Custom CSS for the submissions page */
+
+/* Style for submission buttons */
+.submission-button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff; /* White text */
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.submission-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Style for submission forms */
+.submission-form {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Light background */
+}
+
+/* Style for input fields in the submission form */
+.submission-form input[type="text"],
+.submission-form input[type="email"],
+.submission-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for submission table */
+.submission-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.submission-table th,
+.submission-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.submission-table th {
+    background-color: #f2f2f2; /* Light gray background for header */
+}
