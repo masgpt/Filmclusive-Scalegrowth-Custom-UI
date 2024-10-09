@@ -110,6 +110,6 @@ body.dark-mode .email-button {
 }
 
 .field-sg_aam_show_cta_s_user_link:hover {
-    background-color: darkgray; /* Optional: change background on hover */
-    color: white; /* Optional: change text color on hover */
+    background-color: darkgray; /* Change background on hover */
+    color: white; /* Change text color on hover */
 }
