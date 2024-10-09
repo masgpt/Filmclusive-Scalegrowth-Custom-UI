@@ -11,11 +11,13 @@ gtag('js', new Date());
 gtag('config', 'G-KCM1R8VHQZ');
 
 document.addEventListener("DOMContentLoaded", function() {
-    const emailButton = document.querySelector('.email-button');
+    const emailButtons = document.querySelectorAll('.email-button');
 
-    // Assuming the email address is stored in a data attribute on the button
-    const emailAddress = emailButton.getAttribute('data-email'); // Get the email from a data attribute
+    emailButtons.forEach(button => {
+        // Assuming the email address is stored in a data attribute on the button
+        const emailAddress = button.getAttribute('data-email'); // Get the email from a data attribute
 
-    // Set the email address as the button text
-    emailButton.textContent = emailAddress;
+        // Set the email address as the button text
+        button.textContent = emailAddress;
+    });
 });
