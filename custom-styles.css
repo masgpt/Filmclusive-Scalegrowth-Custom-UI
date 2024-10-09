@@ -99,14 +99,15 @@ body.dark-mode .email-button {
 
 .field-sg_aam_show_cta_s_user_link {
     display: inline-block;
-    background-color: black; /* Button background color */
-    color: yellow; /* Text color */
+    background-color: black !important; /* Enforce button background color */
+    color: yellow !important; /* Enforce text color */
     font-weight: bold; /* Make text bold */
     padding: 10px 20px; /* Padding for the button */
     text-align: center; /* Center the text */
     text-decoration: none; /* Remove underline */
     border-radius: 25px; /* Pill-shaped corners */
     cursor: pointer; /* Change cursor to pointer on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a drop shadow */
 }
 
 .field-sg_aam_show_cta_s_user_link:hover {
