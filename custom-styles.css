@@ -27,6 +27,7 @@
     text-decoration: none;
     font-size: 13px;
     transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 5px; /* Add margin for spacing */
 }
 
 /* Light mode styles */
