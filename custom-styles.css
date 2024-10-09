@@ -100,7 +100,7 @@ body.dark-mode .email-button {
 .field-sg_aam_show_cta_s_user_link {
     display: inline-block;
     background-color: black !important; /* Enforce button background color */
-    color: yellow !important; /* Enforce text color */
+    color: white !important; /* Change text color to white */
     font-weight: bold; /* Make text bold */
     padding: 10px 20px; /* Padding for the button */
     text-align: center; /* Center the text */
@@ -112,5 +112,5 @@ body.dark-mode .email-button {
 
 .field-sg_aam_show_cta_s_user_link:hover {
     background-color: darkgray; /* Change background on hover */
-    color: white; /* Change text color on hover */
+    color: white; /* Keep text color white on hover */
 }
