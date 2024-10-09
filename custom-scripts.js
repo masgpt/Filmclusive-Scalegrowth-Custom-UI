@@ -9,3 +9,12 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-KCM1R8VHQZ');
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Assuming you have a way to get the email address dynamically
+    const emailAddress = "david@strongasianlead.com"; // Replace this with the dynamic email
+    const emailButton = document.querySelector('.email-button');
+
+    // Set the email address as the button text
+    emailButton.textContent = emailAddress;
+});
