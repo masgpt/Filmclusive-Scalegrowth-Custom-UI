@@ -20,4 +20,12 @@ document.addEventListener("DOMContentLoaded", function() {
         // Set the email address as the button text
         button.textContent = emailAddress;
     });
+
+    const submissionLinks = document.querySelectorAll('.field-sg_aam_show_cta_s_user_link');
+
+    submissionLinks.forEach(link => {
+        const dynamicUrl = link.getAttribute('data-url'); // Get the dynamic URL from a data attribute
+        link.setAttribute('href', dynamicUrl); // Set the href attribute to the dynamic URL
+        link.innerText = 'View Submission'; // Set the text to "View Submission"
+    });
 });
