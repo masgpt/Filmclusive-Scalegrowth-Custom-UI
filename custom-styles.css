@@ -96,3 +96,20 @@ body.dark-mode .email-button {
 .submission-table th {
     background-color: #f2f2f2; /* Light gray background for header */
 }
+
+.field-sg_aam_show_cta_s_user_link {
+    display: inline-block; /* Makes it behave like a button */
+    background-color: black; /* Button background color */
+    color: yellow; /* Text color */
+    font-weight: bold; /* Bold text */
+    padding: 10px 20px; /* Padding for button size */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 25px; /* Pill-shaped corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.field-sg_aam_show_cta_s_user_link:hover {
+    background-color: darkgray; /* Optional: change background on hover */
+    color: white; /* Optional: change text color on hover */
+}
