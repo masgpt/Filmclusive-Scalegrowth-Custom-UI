@@ -1,0 +1,43 @@
+/* Custom CSS */
+.sg-dir-prof-card img.image-view.sg-profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.sg-space-filter-current {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000; /* Light mode background */
+    color: #fff; /* Light mode text */
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: -apple-system, system-ui, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+/* New styles for the email button */
+.email-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 5px; /* Add margin for spacing */
+}
+
+/* Light mode styles */
+body.light-mode .email-button {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+}
+
+/* Dark mode styles */
+body.dark-mode .email-button {
+    background-color: yellow; /* Yellow background */
+    color: black; /* Black text */
+}
