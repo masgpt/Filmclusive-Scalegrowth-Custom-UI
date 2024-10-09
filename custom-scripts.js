@@ -11,9 +11,10 @@ gtag('js', new Date());
 gtag('config', 'G-KCM1R8VHQZ');
 
 document.addEventListener("DOMContentLoaded", function() {
-    // Assuming you have a way to get the email address dynamically
-    const emailAddress = "david@strongasianlead.com"; // Replace this with the dynamic email
     const emailButton = document.querySelector('.email-button');
+
+    // Assuming the email address is stored in a data attribute on the button
+    const emailAddress = emailButton.getAttribute('data-email'); // Get the email from a data attribute
 
     // Set the email address as the button text
     emailButton.textContent = emailAddress;
