@@ -97,7 +97,8 @@ body.dark-mode .email-button {
     background-color: #f2f2f2; /* Light gray background for header */
 }
 
-.field-sg_aam_show_cta_s_user_link {
+.field-sg_aam_show_cta_s_user_link,
+.field-sg_aam_show_cta_s_user_link span {
     display: inline-block !important; /* Displays the button as an inline-block */
     background-color: black !important; /* Sets the button background color to black */
     color: white !important; /* Sets the button text color to white */
@@ -110,11 +111,7 @@ body.dark-mode .email-button {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important; /* Adds a drop shadow to the button */
 }
 
-.field-sg_aam_show_cta_s_user_link span {
-    color: white !important; /* Ensures the text inside the button is white */
-}
-
 .field-sg_aam_show_cta_s_user_link:hover {
     background-color: #ffc908; /* Changes background color to yellow on hover */
-    color: black; /* Changes text color to black on hover */
+    color: black !important; /* Changes text color to black on hover */
 }
