@@ -98,7 +98,7 @@ body.dark-mode .email-button {
 }
 
 .field-sg_aam_show_cta_s_user_link {
-    display: inline-block; /* Ensure it behaves like a block element */
+    display: inline-block;
     background-color: black; /* Button background color */
     color: white; /* Change text color to white */
     font-weight: bold; /* Make text bold */
@@ -107,7 +107,6 @@ body.dark-mode .email-button {
     text-decoration: none; /* Remove underline */
     border-radius: 25px; /* Pill-shaped corners */
     cursor: pointer; /* Change cursor to pointer on hover */
-    width: auto; /* Adjust width as needed */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a drop shadow */
 }
 
