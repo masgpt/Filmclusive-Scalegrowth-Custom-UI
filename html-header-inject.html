@@ -27,22 +27,22 @@
     <!-- Custom CSS -->
     <style>
       .sg-dir-prof-card img.image-view.sg-profile-image {
-          width: 250px; // Sets the width of the profile image
-          height: 250px; // Sets the height of the profile image
-          border-radius: 15px; // Rounds the corners of the profile image
+          width: 250px; /* Sets the width of the profile image */
+          height: 250px; /* Sets the height of the profile image */
+          border-radius: 15px; /* Rounds the corners of the profile image */
       }
       .sg-space-filter-current {
-          display: inline-block; // Displays the element as an inline-block
-          padding: 10px 20px; // Adds padding around the element
-          background-color: #000; // Sets the background color to black
-          color: #fff; // Sets the text color to white
-          border: none; // Removes any border
-          border-radius: 50px; // Rounds the corners of the element
-          text-align: center; // Centers the text inside the element
-          text-decoration: none; // Removes underline from text
-          font-size: 13px; // Sets the font size
-          font-family: -apple-system, system-ui, "system-ui", "Segoestylesheet UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif; // Sets the font family
-          transition: background-color 0.3s ease; // Adds a transition effect for background color changes
+          display: inline-block; /* Displays the element as an inline-block */
+          padding: 10px 20px; /* Adds padding around the element */
+          background-color: #000; /* Sets the background color to black */
+          color: #fff; /* Sets the text color to white */
+          border: none; /* Removes any border */
+          border-radius: 50px; /* Rounds the corners of the element */
+          text-align: center; /* Centers the text inside the element */
+          text-decoration: none; /* Removes underline from text */
+          font-size: 13px; /* Sets the font size */
+          font-family: -apple-system, system-ui, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif; /* Sets the font family */
+          transition: background-color 0.3s ease; /* Adds a transition effect for background color changes */
       }
       .field-sg_aam_show_cta_s_user_link {
           display: inline-block !important; /* Displays the button as an inline-block */
@@ -72,19 +72,12 @@
     </a>
 
     <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)}; // Initializes the clarity tracking function
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i; // Creates a script element for Clarity
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y); // Inserts the script element into the DOM
-        })(window, document, "clarity", "script", "noj7kojgpi");
-
         document.addEventListener("DOMContentLoaded", function() { // Waits for the DOM to fully load
             const submissionLinks = document.querySelectorAll('.field-sg_aam_show_cta_s_user_link'); // Selects all submission links
 
             submissionLinks.forEach(link => { // Iterates over each link
                 const dynamicUrl = link.getAttribute('data-url'); // Gets the dynamic URL from the data attribute
                 link.setAttribute('href', dynamicUrl); // Sets the href attribute to the dynamic URL
-                link.innerText = 'View Submission'; // Sets the text to "View Submission"
             });
         });
     </script>
