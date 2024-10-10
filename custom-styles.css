@@ -97,6 +97,7 @@ body.dark-mode .email-button {
     background-color: #f2f2f2; /* Light gray background for header */
 }
 
+/* Style for the submission buttons */
 .field-sg_aam_show_cta_s_user_link,
 .field-sg_aam_show_cta_s_user_link span {
     display: inline-block !important; /* Displays the button as an inline-block */
