@@ -1,0 +1,1 @@
+the buttons are black, the text is black, doesn't shwo view submission. 10.10 at 1:38 am before sleep. 
