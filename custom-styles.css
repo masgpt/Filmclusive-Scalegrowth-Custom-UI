@@ -98,19 +98,19 @@ body.dark-mode .email-button {
 }
 
 .field-sg_aam_show_cta_s_user_link {
-    display: inline-block;
-    background-color: black !important; /* Enforce button background color */
-    color: white !important; /* Change text color to white */
+    display: inline-block; /* Ensure it behaves like a block element */
+    background-color: black; /* Button background color */
+    color: yellow; /* Text color */
     font-weight: bold; /* Make text bold */
     padding: 10px 20px; /* Padding for the button */
     text-align: center; /* Center the text */
     text-decoration: none; /* Remove underline */
     border-radius: 25px; /* Pill-shaped corners */
     cursor: pointer; /* Change cursor to pointer on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a drop shadow */
+    width: auto; /* Adjust width as needed */
 }
 
 .field-sg_aam_show_cta_s_user_link:hover {
     background-color: darkgray; /* Change background on hover */
-    color: white; /* Keep text color white on hover */
+    color: white; /* Change text color on hover */
 }
